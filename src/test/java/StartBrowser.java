@@ -1,4 +1,5 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.Assert;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -16,6 +17,7 @@ public class StartBrowser {
     @Test
     public void RunURL() {
         chromeDriver.get("https://www.lambdatest.com/");
+        Assert.assertTrue(false);
     }
 
     @AfterTest
