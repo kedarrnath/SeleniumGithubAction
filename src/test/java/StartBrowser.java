@@ -22,7 +22,6 @@ public class StartBrowser {
     @Test
     public void RunURL() {
         chromeDriver.get("https://www.lambdatest.com/");
-        Assert.assertTrue(false);
     }
 
     @AfterTest

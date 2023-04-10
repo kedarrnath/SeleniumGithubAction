@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="4203" started-at="2023-04-10T19:38:17 IST" finished-at="2023-04-10T19:38:22 IST">
+    <groups>
+    </groups>
+    <test name="D:/SeleniumGitubAction" duration-ms="4203" started-at="2023-04-10T19:38:17 IST" finished-at="2023-04-10T19:38:22 IST">
+      <class name="StartBrowser">
+        <test-method status="PASS" signature="setup()[pri:0, instance:StartBrowser@370736d9]" name="setup" is-config="true" duration-ms="2982" started-at="2023-04-10T19:38:17 IST" finished-at="2023-04-10T19:38:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RunURL()[pri:0, instance:StartBrowser@370736d9]" name="RunURL" duration-ms="1100" started-at="2023-04-10T19:38:20 IST" finished-at="2023-04-10T19:38:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunURL -->
+        <test-method status="PASS" signature="crash()[pri:0, instance:StartBrowser@370736d9]" name="crash" is-config="true" duration-ms="76" started-at="2023-04-10T19:38:22 IST" finished-at="2023-04-10T19:38:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crash -->
+      </class> <!-- StartBrowser -->
+    </test> <!-- D:/SeleniumGitubAction -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
